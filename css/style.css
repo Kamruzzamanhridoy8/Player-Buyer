@@ -1,0 +1,165 @@
+*{
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 100px;
+}
+.sec-bg{
+    background: #000;
+    width: 100%;
+    
+}
+.header-contant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+}
+.subheadingheader{
+    text-align: center;
+    color: white;
+    width: 600px;
+    margin-top: 20px;
+}
+.footbal-net-img{
+    width: 250px;
+    margin-top: 200px;
+    background-color: rgb(48, 135, 235);
+    border-top-right-radius: 200px;
+    height: 250px;
+}
+
+.football-player-kick{
+    width: 500px;
+    margin-left: -137px;
+    margin-right: -113px;
+    margin-top: 155px;
+    padding-bottom:0 ;
+    
+
+}
+.football-player-kick img{
+    width: 450px;
+    border-top-left-radius: 250px;
+    
+}
+.header-heading{
+    color:#d5490d;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 45px;
+    text-align: center;
+}
+.players-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
+}
+
+.players-section{
+    background-color: rgb(72, 69, 69);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.Player-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(223, 212, 212);
+    width: 200px;
+    height: 290px;
+    background: #000;
+    border-radius: 15px;
+
+}
+.img-round{
+    border-radius: 15px;
+}
+.messi{
+    margin: 20px 0px;
+    color: white;
+}
+.goal{
+    color: white;
+}
+.player-select{
+    margin: 20px 0px 10px 0px;
+    padding: 5px 45px;
+    background: rgba(18, 115, 233, 0.819);
+    font-weight: bold;
+    color: white;
+}
+.seleted-player-1{
+    width: 202px;
+    height: 290px;
+    background-color: black;
+    border-radius: 30px;
+    padding: 0px 40px;
+    
+}
+
+.player-price-calculator>h2{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.seleted-player-1>h2{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.player-price-calculator{
+    width: 202px;
+    height: 400px;
+    background-color: black;
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 0px 40px;
+}
+
+.per-player{
+    display: inline;
+    color: white;
+    margin: 10px;
+}
+.per-player-amount{
+    width: 80px;
+    margin-top: 20px;
+}
+.player-ammount-btn{
+    width: 90%;
+    padding: 5px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 10px;
+    margin-top: 20px;
+    background-color: rgba(23, 91, 227, 0.767);
+    color: white;
+    margin-bottom: 15px;
+}
+.coach{
+    margin-right: 27px;
+}
+.total-amount{
+    margin-left: 90px;
+}
+.copyright{
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgb(72, 69, 69);
+    color: white;
+
+
+    
+
+}
