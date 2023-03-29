@@ -97,6 +97,7 @@ body{
     background: rgba(18, 115, 233, 0.819);
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 .seleted-player-1{
     width: 202px;
@@ -116,6 +117,7 @@ body{
     color: white;
     text-align: center;
     padding-top: 15px;
+    margin-bottom: 15px;
 }
 .player-price-calculator{
     width: 202px;
@@ -145,6 +147,7 @@ body{
     background-color: rgba(23, 91, 227, 0.767);
     color: white;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 .coach{
     margin-right: 27px;
